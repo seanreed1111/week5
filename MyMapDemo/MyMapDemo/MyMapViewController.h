@@ -11,6 +11,9 @@
 #import <MapKit/MapKit.h>
 
 
-@interface MyMapViewController : UIViewController
+@interface MyMapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
+
+@property(strong, nonatomic)CLLocationManager *locationManager;
+@property(strong, nonatomic)CLLocation *currentLocation;
 
 @end
