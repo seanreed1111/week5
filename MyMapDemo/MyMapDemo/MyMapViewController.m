@@ -28,6 +28,7 @@
     {
         self.currentLocation = [[CLLocation alloc]init];
     }
+    self.mapView.mapType = MKMapTypeHybrid;
     
     [self.locationManager startUpdatingLocation];
 }
@@ -37,6 +38,25 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)setMyMapType:(UISegmentedControl *)sender
+{
+    switch (sender.selectedSegmentIndex)
+    {
+        case MKMapTypeStandard:
+            self.mapView.mapType = MKMapTypeStandard;
+            break;
+        case MKMapTypeSatellite:
+            self.mapView.mapType = MKMapTypeSatellite;
+            break;
+        case MKMapTypeHybrid:
+            self.mapView.mapType = MKMapTypeHybrid;
+            break;
+
+        default:
+            break;
+    }
+}
+
 
 #pragma mark CoreLocationManagerDelegate
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
@@ -58,4 +78,7 @@
 #pragma mark MKMapViewDelegate
 
 
+- (IBAction)setMapType:(id)sender
+{
+}
 @end
