@@ -24,7 +24,7 @@
     {
         self.locationManager = [[CLLocationManager alloc]init];
         self.locationManager.delegate = self;
-        self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation;
     }
     
     if(!self.currentLocation)
@@ -76,7 +76,7 @@
     {
         NSLog(@"\nLatitude = %4.4f, longitude = %4.4f", self.currentLocation.coordinate.latitude, self.currentLocation.coordinate.longitude);
     
-        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(self.currentLocation.coordinate,1000000.0,1000000.0);
+        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(self.currentLocation.coordinate,10000.0,10000.0);
         [self.mapView setRegion:region animated:YES];
     
     }
