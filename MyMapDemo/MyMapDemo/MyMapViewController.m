@@ -8,8 +8,11 @@
 
 #import "MyMapViewController.h"
 
-@interface MyMapViewController ()
+@interface MyMapViewController()
+{
 
+    
+}
 @end
 
 @implementation MyMapViewController
@@ -29,8 +32,13 @@
         self.currentLocation = [[CLLocation alloc]init];
     }
     self.mapView.mapType = MKMapTypeHybrid;
+    self.mapView.showsUserLocation = YES;
+    [self.mapView setZoomEnabled:YES];
+    [self.mapView setUserTrackingMode:MKUserTrackingModeFollowWithHeading animated:YES];
     
     [self.locationManager startUpdatingLocation];
+    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,6 +61,7 @@
             break;
 
         default:
+            self.mapView.mapType = MKMapTypeStandard;
             break;
     }
 }
@@ -62,23 +71,31 @@
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     self.currentLocation = [locations lastObject];
-    NSLog(@"/nLatitude = %4.4f, longitude = %4.4f", self.currentLocation.coordinate.latitude, self.currentLocation.coordinate.longitude);
+    
+    if(self.currentLocation)
+    {
+        NSLog(@"\nLatitude = %4.4f, longitude = %4.4f", self.currentLocation.coordinate.latitude, self.currentLocation.coordinate.longitude);
+    
+        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(self.currentLocation.coordinate,1000000.0,1000000.0);
+        [self.mapView setRegion:region animated:YES];
+    
+    }
+
+
+    
+//    [self.mapView setCenterCoordinate:self.currentLocation.coordinate];
+
 }
 
--(void)locationManager:(CLLocationManager *)manager didStartMonitoringForRegion:(CLRegion *)region
-{
-    
-}
 
 -(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
 {
-    NSLog(@"Sorry, could not find your location, error = %@",[error debugDescription]);
+    NSLog(@"\nlocationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error");
+    NSLog(@"\nSorry, could not find your location, error = %@",[error debugDescription]);
 }
 
 #pragma mark MKMapViewDelegate
 
 
-- (IBAction)setMapType:(id)sender
-{
-}
+
 @end
