@@ -18,7 +18,6 @@
 		48FDB50F18334D7D0063FD02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FDB50E18334D7D0063FD02 /* Default-568h@2x.png */; };
 		48FDB51218334D7D0063FD02 /* DEMOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FDB51118334D7D0063FD02 /* DEMOViewController.m */; };
 		48FDB51518334D7D0063FD02 /* DEMOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48FDB51318334D7D0063FD02 /* DEMOViewController.xib */; };
-		48FDB51D18334D7D0063FD02 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FDB51C18334D7D0063FD02 /* SenTestingKit.framework */; };
 		48FDB51E18334D7D0063FD02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FDB4F818334D7D0063FD02 /* UIKit.framework */; };
 		48FDB51F18334D7D0063FD02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FDB4FA18334D7D0063FD02 /* Foundation.framework */; };
 		48FDB52718334D7D0063FD02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48FDB52518334D7D0063FD02 /* InfoPlist.strings */; };
@@ -54,8 +53,7 @@
 		48FDB51018334D7D0063FD02 /* DEMOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEMOViewController.h; sourceTree = "<group>"; };
 		48FDB51118334D7D0063FD02 /* DEMOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEMOViewController.m; sourceTree = "<group>"; };
 		48FDB51418334D7D0063FD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEMOViewController.xib; sourceTree = "<group>"; };
-		48FDB51B18334D7D0063FD02 /* CreatesUiProgramaticallyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatesUiProgramaticallyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48FDB51C18334D7D0063FD02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		48FDB51B18334D7D0063FD02 /* CreatesUiProgramaticallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatesUiProgramaticallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FDB52418334D7D0063FD02 /* CreatesUiProgramaticallyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreatesUiProgramaticallyTests-Info.plist"; sourceTree = "<group>"; };
 		48FDB52618334D7D0063FD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48FDB52818334D7D0063FD02 /* CreatesUiProgramaticallyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatesUiProgramaticallyTests.h; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48FDB51D18334D7D0063FD02 /* SenTestingKit.framework in Frameworks */,
 				48FDB51E18334D7D0063FD02 /* UIKit.framework in Frameworks */,
 				48FDB51F18334D7D0063FD02 /* Foundation.framework in Frameworks */,
 			);
@@ -102,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				48FDB4F518334D7D0063FD02 /* CreatesUiProgramatically.app */,
-				48FDB51B18334D7D0063FD02 /* CreatesUiProgramaticallyTests.octest */,
+				48FDB51B18334D7D0063FD02 /* CreatesUiProgramaticallyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +110,6 @@
 				48FDB4F818334D7D0063FD02 /* UIKit.framework */,
 				48FDB4FA18334D7D0063FD02 /* Foundation.framework */,
 				48FDB4FC18334D7D0063FD02 /* CoreGraphics.framework */,
-				48FDB51C18334D7D0063FD02 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,11 +117,11 @@
 		48FDB4FE18334D7D0063FD02 /* CreatesUiProgramatically */ = {
 			isa = PBXGroup;
 			children = (
+				48FDB51318334D7D0063FD02 /* DEMOViewController.xib */,
 				48FDB50718334D7D0063FD02 /* DEMOAppDelegate.h */,
 				48FDB50818334D7D0063FD02 /* DEMOAppDelegate.m */,
 				48FDB51018334D7D0063FD02 /* DEMOViewController.h */,
 				48FDB51118334D7D0063FD02 /* DEMOViewController.m */,
-				48FDB51318334D7D0063FD02 /* DEMOViewController.xib */,
 				48FDB4FF18334D7D0063FD02 /* Supporting Files */,
 			);
 			path = CreatesUiProgramatically;
@@ -202,8 +198,8 @@
 			);
 			name = CreatesUiProgramaticallyTests;
 			productName = CreatesUiProgramaticallyTests;
-			productReference = 48FDB51B18334D7D0063FD02 /* CreatesUiProgramaticallyTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 48FDB51B18334D7D0063FD02 /* CreatesUiProgramaticallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -212,6 +208,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DEMO;
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Aditya;
 			};
@@ -418,13 +415,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreatesUiProgramatically/CreatesUiProgramatically-Prefix.pch";
 				INFOPLIST_FILE = "CreatesUiProgramaticallyTests/CreatesUiProgramaticallyTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -435,13 +432,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreatesUiProgramatically/CreatesUiProgramatically-Prefix.pch";
 				INFOPLIST_FILE = "CreatesUiProgramaticallyTests/CreatesUiProgramaticallyTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -464,6 +461,7 @@
 				48FDB52F18334D7D0063FD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48FDB53018334D7D0063FD02 /* Build configuration list for PBXNativeTarget "CreatesUiProgramaticallyTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +470,7 @@
 				48FDB53218334D7D0063FD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
