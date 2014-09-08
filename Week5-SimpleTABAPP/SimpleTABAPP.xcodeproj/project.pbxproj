@@ -28,7 +28,6 @@
 		488CB9A118321F7C007D9797 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 488CB9A018321F7C007D9797 /* second@2x.png */; };
 		488CB9A418321F7C007D9797 /* DEMOFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 488CB9A218321F7C007D9797 /* DEMOFirstViewController.xib */; };
 		488CB9A718321F7C007D9797 /* DEMOSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 488CB9A518321F7C007D9797 /* DEMOSecondViewController.xib */; };
-		488CB9AF18321F7C007D9797 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488CB9AE18321F7C007D9797 /* SenTestingKit.framework */; };
 		488CB9B018321F7C007D9797 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488CB97C18321F7B007D9797 /* UIKit.framework */; };
 		488CB9B118321F7C007D9797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488CB97E18321F7B007D9797 /* Foundation.framework */; };
 		488CB9B918321F7C007D9797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 488CB9B718321F7C007D9797 /* InfoPlist.strings */; };
@@ -77,8 +76,7 @@
 		488CB9A018321F7C007D9797 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		488CB9A318321F7C007D9797 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEMOFirstViewController.xib; sourceTree = "<group>"; };
 		488CB9A618321F7C007D9797 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEMOSecondViewController.xib; sourceTree = "<group>"; };
-		488CB9AD18321F7C007D9797 /* SimpleTABAPPTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTABAPPTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		488CB9AE18321F7C007D9797 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		488CB9AD18321F7C007D9797 /* SimpleTABAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTABAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		488CB9B618321F7C007D9797 /* SimpleTABAPPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTABAPPTests-Info.plist"; sourceTree = "<group>"; };
 		488CB9B818321F7C007D9797 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		488CB9BA18321F7C007D9797 /* SimpleTABAPPTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTABAPPTests.h; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488CB9AF18321F7C007D9797 /* SenTestingKit.framework in Frameworks */,
 				488CB9B018321F7C007D9797 /* UIKit.framework in Frameworks */,
 				488CB9B118321F7C007D9797 /* Foundation.framework in Frameworks */,
 			);
@@ -129,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				488CB97918321F7B007D9797 /* SimpleTABAPP.app */,
-				488CB9AD18321F7C007D9797 /* SimpleTABAPPTests.octest */,
+				488CB9AD18321F7C007D9797 /* SimpleTABAPPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +137,6 @@
 				488CB97C18321F7B007D9797 /* UIKit.framework */,
 				488CB97E18321F7B007D9797 /* Foundation.framework */,
 				488CB98018321F7B007D9797 /* CoreGraphics.framework */,
-				488CB9AE18321F7C007D9797 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -244,8 +240,8 @@
 			);
 			name = SimpleTABAPPTests;
 			productName = SimpleTABAPPTests;
-			productReference = 488CB9AD18321F7C007D9797 /* SimpleTABAPPTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 488CB9AD18321F7C007D9797 /* SimpleTABAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -254,6 +250,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DEMO;
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Aditya;
 			};
@@ -480,13 +477,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTABAPP/SimpleTABAPP-Prefix.pch";
 				INFOPLIST_FILE = "SimpleTABAPPTests/SimpleTABAPPTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -497,13 +494,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTABAPP/SimpleTABAPP-Prefix.pch";
 				INFOPLIST_FILE = "SimpleTABAPPTests/SimpleTABAPPTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

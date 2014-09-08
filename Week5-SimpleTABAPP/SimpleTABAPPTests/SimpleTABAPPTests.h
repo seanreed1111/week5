@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Aditya. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface SimpleTABAPPTests : SenTestCase
+@interface SimpleTABAPPTests : XCTestCase
 
 @end

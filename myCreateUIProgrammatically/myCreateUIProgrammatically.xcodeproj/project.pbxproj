@@ -22,6 +22,8 @@
 		14A91DC219BE006200D3CBF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A91DC019BE006200D3CBF9 /* InfoPlist.strings */; };
 		14A91DC419BE006300D3CBF9 /* myCreateUIProgrammaticallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A91DC319BE006300D3CBF9 /* myCreateUIProgrammaticallyTests.m */; };
 		14A91DCE19BE0E8100D3CBF9 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A91DCD19BE0E8100D3CBF9 /* View.xib */; };
+		14A91DD119BE333D00D3CBF9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91DCF19BE333D00D3CBF9 /* logo.png */; };
+		14A91DD219BE333D00D3CBF9 /* qcd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14A91DD019BE333D00D3CBF9 /* qcd.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		14A91DC119BE006200D3CBF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14A91DC319BE006300D3CBF9 /* myCreateUIProgrammaticallyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCreateUIProgrammaticallyTests.m; sourceTree = "<group>"; };
 		14A91DCD19BE0E8100D3CBF9 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		14A91DCF19BE333D00D3CBF9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		14A91DD019BE333D00D3CBF9 /* qcd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qcd.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 		14A91D9F19BE006200D3CBF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14A91DCF19BE333D00D3CBF9 /* logo.png */,
+				14A91DD019BE333D00D3CBF9 /* qcd.jpg */,
 				14A91DAA19BE006200D3CBF9 /* Main.storyboard */,
 				14A91DA019BE006200D3CBF9 /* myCreateUIProgrammatically-Info.plist */,
 				14A91DA119BE006200D3CBF9 /* InfoPlist.strings */,
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A91DD219BE333D00D3CBF9 /* qcd.jpg in Resources */,
 				14A91DCE19BE0E8100D3CBF9 /* View.xib in Resources */,
+				14A91DD119BE333D00D3CBF9 /* logo.png in Resources */,
 				14A91DB119BE006200D3CBF9 /* Images.xcassets in Resources */,
 				14A91DA319BE006200D3CBF9 /* InfoPlist.strings in Resources */,
 				14A91DAC19BE006200D3CBF9 /* Main.storyboard in Resources */,

@@ -21,7 +21,7 @@
 -(void)createSegment;
 -(void)createImageView;
 -(void)createScrollView;
--(IBAction)sampleButtonAction;
--(IBAction)pushControl:(id)sender;
+-(IBAction)buttonAction;
+-(IBAction)pushSegmentedControl:(id)sender;
 
 @end
