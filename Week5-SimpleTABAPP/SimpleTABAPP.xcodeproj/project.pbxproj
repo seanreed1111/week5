@@ -148,19 +148,15 @@
 				488CB98C18321F7B007D9797 /* DEMOAppDelegate.m */,
 				488CB99418321F7C007D9797 /* DEMOFirstViewController.h */,
 				488CB99518321F7C007D9797 /* DEMOFirstViewController.m */,
-				488CB99718321F7C007D9797 /* first.png */,
-				488CB99918321F7C007D9797 /* first@2x.png */,
 				488CB99B18321F7C007D9797 /* DEMOSecondViewController.h */,
 				488CB99C18321F7C007D9797 /* DEMOSecondViewController.m */,
-				488CB99E18321F7C007D9797 /* second.png */,
-				488CB9A018321F7C007D9797 /* second@2x.png */,
-				488CB9A218321F7C007D9797 /* DEMOFirstViewController.xib */,
-				488CB9A518321F7C007D9797 /* DEMOSecondViewController.xib */,
 				488CB9D81832311E007D9797 /* DEMO3ViewController.h */,
 				488CB9D91832311E007D9797 /* DEMO3ViewController.m */,
-				488CB9DA1832311E007D9797 /* DEMO3ViewController.xib */,
 				488CB9DD18323140007D9797 /* DEMO4ViewController.h */,
 				488CB9DE18323141007D9797 /* DEMO4ViewController.m */,
+				488CB9A218321F7C007D9797 /* DEMOFirstViewController.xib */,
+				488CB9A518321F7C007D9797 /* DEMOSecondViewController.xib */,
+				488CB9DA1832311E007D9797 /* DEMO3ViewController.xib */,
 				488CB9DF18323141007D9797 /* DEMO4ViewController.xib */,
 				488CB98318321F7B007D9797 /* Supporting Files */,
 			);
@@ -170,6 +166,10 @@
 		488CB98318321F7B007D9797 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				488CB99718321F7C007D9797 /* first.png */,
+				488CB99918321F7C007D9797 /* first@2x.png */,
+				488CB99E18321F7C007D9797 /* second.png */,
+				488CB9A018321F7C007D9797 /* second@2x.png */,
 				488CB98418321F7B007D9797 /* SimpleTABAPP-Info.plist */,
 				488CB98518321F7B007D9797 /* InfoPlist.strings */,
 				488CB98818321F7B007D9797 /* main.m */,

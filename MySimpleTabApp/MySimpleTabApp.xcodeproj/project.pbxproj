@@ -21,6 +21,21 @@
 		14A91E0119BE350700D3CBF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A91DE319BE350700D3CBF9 /* UIKit.framework */; };
 		14A91E0919BE350700D3CBF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E0719BE350700D3CBF9 /* InfoPlist.strings */; };
 		14A91E0B19BE350700D3CBF9 /* MySimpleTabAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A91E0A19BE350700D3CBF9 /* MySimpleTabAppTests.m */; };
+		14A91E1C19BE480A00D3CBF9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1419BE480A00D3CBF9 /* first.png */; };
+		14A91E1D19BE480A00D3CBF9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1519BE480A00D3CBF9 /* first@2x.png */; };
+		14A91E1E19BE480A00D3CBF9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1619BE480A00D3CBF9 /* second.png */; };
+		14A91E1F19BE480A00D3CBF9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1719BE480A00D3CBF9 /* second@2x.png */; };
+		14A91E2019BE480A00D3CBF9 /* DEMOFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1819BE480A00D3CBF9 /* DEMOFirstViewController.xib */; };
+		14A91E2119BE480A00D3CBF9 /* DEMOSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1919BE480A00D3CBF9 /* DEMOSecondViewController.xib */; };
+		14A91E2219BE480A00D3CBF9 /* DEMO3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1A19BE480A00D3CBF9 /* DEMO3ViewController.xib */; };
+		14A91E2319BE480A00D3CBF9 /* DEMO4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E1B19BE480A00D3CBF9 /* DEMO4ViewController.xib */; };
+		14A91E2B19BE482200D3CBF9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E2419BE482200D3CBF9 /* Default.png */; };
+		14A91E2C19BE482200D3CBF9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E2519BE482200D3CBF9 /* Default@2x.png */; };
+		14A91E2D19BE482200D3CBF9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E2619BE482200D3CBF9 /* Default-568h@2x.png */; };
+		14A91E2E19BE482200D3CBF9 /* tt.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E2719BE482200D3CBF9 /* tt.png */; };
+		14A91E2F19BE482200D3CBF9 /* q1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E2819BE482200D3CBF9 /* q1.jpg */; };
+		14A91E3019BE482200D3CBF9 /* logo1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E2919BE482200D3CBF9 /* logo1.gif */; };
+		14A91E3119BE482200D3CBF9 /* q2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14A91E2A19BE482200D3CBF9 /* q2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,21 @@
 		14A91E0619BE350700D3CBF9 /* MySimpleTabAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySimpleTabAppTests-Info.plist"; sourceTree = "<group>"; };
 		14A91E0819BE350700D3CBF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14A91E0A19BE350700D3CBF9 /* MySimpleTabAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimpleTabAppTests.m; sourceTree = "<group>"; };
+		14A91E1419BE480A00D3CBF9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		14A91E1519BE480A00D3CBF9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		14A91E1619BE480A00D3CBF9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		14A91E1719BE480A00D3CBF9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		14A91E1819BE480A00D3CBF9 /* DEMOFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEMOFirstViewController.xib; sourceTree = "<group>"; };
+		14A91E1919BE480A00D3CBF9 /* DEMOSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEMOSecondViewController.xib; sourceTree = "<group>"; };
+		14A91E1A19BE480A00D3CBF9 /* DEMO3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEMO3ViewController.xib; sourceTree = "<group>"; };
+		14A91E1B19BE480A00D3CBF9 /* DEMO4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEMO4ViewController.xib; sourceTree = "<group>"; };
+		14A91E2419BE482200D3CBF9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		14A91E2519BE482200D3CBF9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		14A91E2619BE482200D3CBF9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14A91E2719BE482200D3CBF9 /* tt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tt.png; sourceTree = "<group>"; };
+		14A91E2819BE482200D3CBF9 /* q1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q1.jpg; sourceTree = "<group>"; };
+		14A91E2919BE482200D3CBF9 /* logo1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo1.gif; sourceTree = "<group>"; };
+		14A91E2A19BE482200D3CBF9 /* q2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +142,10 @@
 		14A91DE519BE350700D3CBF9 /* MySimpleTabApp */ = {
 			isa = PBXGroup;
 			children = (
+				14A91E1819BE480A00D3CBF9 /* DEMOFirstViewController.xib */,
+				14A91E1919BE480A00D3CBF9 /* DEMOSecondViewController.xib */,
+				14A91E1A19BE480A00D3CBF9 /* DEMO3ViewController.xib */,
+				14A91E1B19BE480A00D3CBF9 /* DEMO4ViewController.xib */,
 				14A91DEE19BE350700D3CBF9 /* MySimpleTabAppAppDelegate.h */,
 				14A91DEF19BE350700D3CBF9 /* MySimpleTabAppAppDelegate.m */,
 				14A91DF119BE350700D3CBF9 /* Main.storyboard */,
@@ -126,6 +160,17 @@
 		14A91DE619BE350700D3CBF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14A91E1419BE480A00D3CBF9 /* first.png */,
+				14A91E1519BE480A00D3CBF9 /* first@2x.png */,
+				14A91E1619BE480A00D3CBF9 /* second.png */,
+				14A91E1719BE480A00D3CBF9 /* second@2x.png */,
+				14A91E2419BE482200D3CBF9 /* Default.png */,
+				14A91E2519BE482200D3CBF9 /* Default@2x.png */,
+				14A91E2619BE482200D3CBF9 /* Default-568h@2x.png */,
+				14A91E2719BE482200D3CBF9 /* tt.png */,
+				14A91E2819BE482200D3CBF9 /* q1.jpg */,
+				14A91E2919BE482200D3CBF9 /* logo1.gif */,
+				14A91E2A19BE482200D3CBF9 /* q2.jpg */,
 				14A91DE719BE350700D3CBF9 /* MySimpleTabApp-Info.plist */,
 				14A91DE819BE350700D3CBF9 /* InfoPlist.strings */,
 				14A91DEB19BE350700D3CBF9 /* main.m */,
@@ -229,8 +274,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A91E2019BE480A00D3CBF9 /* DEMOFirstViewController.xib in Resources */,
+				14A91E2219BE480A00D3CBF9 /* DEMO3ViewController.xib in Resources */,
+				14A91E1C19BE480A00D3CBF9 /* first.png in Resources */,
+				14A91E1F19BE480A00D3CBF9 /* second@2x.png in Resources */,
+				14A91E3019BE482200D3CBF9 /* logo1.gif in Resources */,
+				14A91E2C19BE482200D3CBF9 /* Default@2x.png in Resources */,
+				14A91E3119BE482200D3CBF9 /* q2.jpg in Resources */,
+				14A91E2D19BE482200D3CBF9 /* Default-568h@2x.png in Resources */,
 				14A91DF819BE350700D3CBF9 /* Images.xcassets in Resources */,
+				14A91E2F19BE482200D3CBF9 /* q1.jpg in Resources */,
 				14A91DEA19BE350700D3CBF9 /* InfoPlist.strings in Resources */,
+				14A91E1E19BE480A00D3CBF9 /* second.png in Resources */,
+				14A91E2B19BE482200D3CBF9 /* Default.png in Resources */,
+				14A91E2E19BE482200D3CBF9 /* tt.png in Resources */,
+				14A91E2319BE480A00D3CBF9 /* DEMO4ViewController.xib in Resources */,
+				14A91E1D19BE480A00D3CBF9 /* first@2x.png in Resources */,
+				14A91E2119BE480A00D3CBF9 /* DEMOSecondViewController.xib in Resources */,
 				14A91DF319BE350700D3CBF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
